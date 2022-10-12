@@ -61,6 +61,66 @@ const TEMPLATE_CONFIG = [
     `
   },
   {
+    id: '0004',
+    title: '小仙女, 早上好',
+    desc: `
+    今天又是元气满满的一天 ૮ ・ﻌ・ა
+      **{{date.DATA}}**
+      ---
+      下面为你播报{{city.DATA}}今天的天气 
+      🌤天气：{{weather.DATA}}
+      💧最低气温: {{min_temperature.DATA}} 
+      ☀️最高气温: {{max_temperature.DATA}} 
+      😷今日空气质量：{{aqi.DATA}} 
+      🌀今日风向：{{wind_direction.DATA}}{{wind_scale.DATA}} 
+      🌅日出时间：{{sunrise.DATA}}
+      🌆日落时间：{{sunset.DATA}}
+      🤧预防感冒提醒：{{ganmao.DATA}}
+      {{notice.DATA}}
+      📅距离休息：{{holidaytts.DATA}}
+      {{comprehensive_horoscope.DATA}}
+      ---
+      🦊你已经生存了{{love_day.DATA}}天
+      {{birthday_message.DATA}}
+      ---
+      {{moment_copyrighting.DATA}}
+      {{note_en.DATA}} {{note_ch.DATA}}
+      {{one_talk.DATA}} {{talk_from.DATA}}
+      {{poison_chicken_soup.DATA}}
+      
+    `
+  },
+  {
+    id: '0005',
+    title: '彦祖, 早上好',
+    desc: `
+    今天又是元气满满的一天 ૮ ・ﻌ・ა
+      **{{date.DATA}}**
+      ---
+      下面为你播报{{city.DATA}}今天的天气 
+      🌤天气：{{weather.DATA}}
+      💧最低气温: {{min_temperature.DATA}} 
+      ☀️最高气温: {{max_temperature.DATA}} 
+      😷今日空气质量：{{aqi.DATA}} 
+      🌀今日风向：{{wind_direction.DATA}}{{wind_scale.DATA}} 
+      🌅日出时间：{{sunrise.DATA}}
+      🌆日落时间：{{sunset.DATA}}
+      🤧预防感冒提醒：{{ganmao.DATA}}
+      {{notice.DATA}}
+      📅距离休息：{{holidaytts.DATA}}
+      {{comprehensive_horoscope.DATA}}
+      ---
+      🦊你已经生存了{{love_day.DATA}}天
+      {{birthday_message.DATA}}
+      ---
+      {{moment_copyrighting.DATA}}
+      {{note_en.DATA}} {{note_ch.DATA}}
+      {{one_talk.DATA}} {{talk_from.DATA}}
+      {{poison_chicken_soup.DATA}}
+      
+    `
+  },
+  {
     id: '0002',
     title: '推送完成提醒',
     desc: `
