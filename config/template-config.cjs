@@ -11,8 +11,9 @@ const TEMPLATE_CONFIG = [
       🌤天气：{{weather.DATA}}
       💧最低气温: {{min_temperature.DATA}} 
       ☀️最高气温: {{max_temperature.DATA}} 
-      😷今日空气质量：{{ air_quality.DATA }} 
-      🌀今日风向：{{ wind_direction.DATA }} 
+      😷今日空气质量：{{aqi.DATA}} 
+      🌀今日风向：{{wind_direction.DATA}}{{wind_scale.DATA}} 
+      {{aqi.DATA}}{{aqi.DATA}}
       📅距离休息：{{holidaytts.DATA}}
       {{comprehensive_horoscope.DATA}}
       ---
@@ -23,7 +24,7 @@ const TEMPLATE_CONFIG = [
       {{note_en.DATA}} {{note_ch.DATA}}
       {{one_talk.DATA}} {{talk_from.DATA}}
       {{poetry_title.DATA}} {{poetry_content.DATA}}
-      {{comprehensive_horoscope.DATA}}
+      
     `
   },
   {
