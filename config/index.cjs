@@ -58,7 +58,7 @@ const USER_CONFIG = {
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: '0003',
       // 所在省份
-      province: "新疆",
+      province: "新疆维吾尔自治区",
       // 所在城市
       city: "鄯善",
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
