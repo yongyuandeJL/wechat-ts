@@ -21,7 +21,7 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '小韩',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'PDU16832T7l056huNZVUlqbO9TNqwqq9MLs6lYlh8',
+      id: 'PDU16833T0La7skhIIxTEwMSqYt3vgyFF5JJ6GFfi',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: '0001',
       // 所在省份
@@ -48,6 +48,37 @@ const USER_CONFIG = {
       customizedDateList: [
         // 在一起的日子
         { keyword: 'love_day', date: '2021-01-20' },
+      ],
+    },
+    {
+      // 想要发送的人的名字
+      name: '小金鱼',
+      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: 'PDU16866TZPSM6I9CJN93HrL4qqPIBwxizXYJcCFv',
+      // 使用微信测试号：你想对他发送的模板消息的模板ID
+      useTemplateId: '0003',
+      // 所在省份
+      province: "新疆",
+      // 所在城市
+      city: "哈密",
+      // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
+      horoscopeDate: '05-20',
+      // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
+      horoscopeDateType: '今日',
+      // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
+      openUrl: "https://www.zwcsm.com/",
+      festivals: [
+        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        {
+          type: '生日', name: '自己', year: '1985', date: '05-20',
+        },
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        
+      ],
+      // 我们在一起已经有xxxx天了的配置
+      customizedDateList: [
+        // 在一起的日子
+        { keyword: 'love_day', date: '1985-05-20' },
       ],
     },
   ],
