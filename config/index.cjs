@@ -21,7 +21,7 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '小韩',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'PDU16833T0La7skhIIxTEwMSqYt3vgyFF5JJ6GFfi',
+      id: 'PDU16832T7l056huNZVUlqbO9TNqwqq9MLs6lYlh8',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: '0001',
       // 所在省份
