@@ -2,7 +2,7 @@ export const config = {
   /**
    * 公众号配置
    */
-USE_PASSAGE: 'push-deer',
+  USE_PASSAGE: 'push-deer',
   // 公众号APP_ID
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
